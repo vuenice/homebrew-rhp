@@ -6,7 +6,7 @@ class Rhp < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/vuenice/rhp/releases/download/alpha-v0.0.1/rhp-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "f2a0bae0befede9f54971215c7a891784edce362d40e3a086e73a33810c4aae5"
+    sha256 "21b0ba57c2783ec9e80bd9560f659320c3ed977f84401ec3e8aa0e23b5620710"
   end
 
   # macOS support will be uncommented once Darwin binaries and checksums are published
